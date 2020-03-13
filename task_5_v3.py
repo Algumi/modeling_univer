@@ -24,5 +24,7 @@ def main():
     for i, x in enumerate(stats):
         print(f"Exp №{i + 1} -- {x / n}")
 
+    print(f"Final - {sum(stats) / n * exp_num}")
+
 
 main()
