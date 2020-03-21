@@ -8,7 +8,7 @@ def calculate(x, y, a, b):
     b = [b]
     ans_x, ans_y = [x], [y]
 
-    while t < 4:
+    while t < 10:
         a.append(a[-1] + h * ((-k1 - k2) * ans_x[-1] + k2 * ans_y[-1]))
         b.append(b[-1] + h * ((-k2 - k3) * ans_y[-1] + k2 * ans_x[-1]))
         ans_x.append(ans_x[-1] + h * a[-1])
